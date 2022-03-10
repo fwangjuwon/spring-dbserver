@@ -22,9 +22,6 @@ import lombok.NoArgsConstructor;
 public class HospitalDto {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer no;
-
     private Integer id;
 
     private String addr;
